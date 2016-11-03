@@ -34,7 +34,7 @@ public class Figures {
     
     
     public void cuadrado(float lado){
-        lado = Float.parseFloat(JOptionPane.showInputDialog(" inserte el valor del lado"));
+        lado = Float.parseFloat(JOptionPane.showInputDialog(" inserte el valor de lado"));
         System.out.println("El area del cuadrado es "+lado*lado);
     }
     
@@ -45,9 +45,9 @@ public class Figures {
     
     
     public void triangulo(float base,float altura){
-        base = Float.parseFloat(JOptionPane.showInputDialog(" inserte lja base "));
-        altura = Float.parseFloat(JOptionPane.showInputDialog(" Inserte la altura " ));
-        System.out.println(" el area del triangulo es "+ (base*altura)/2);
+        base = Float.parseFloat(JOptionPane.showInputDialog(" inserte el valor de la base "));
+        altura = Float.parseFloat(JOptionPane.showInputDialog(" Inseerte la altura " ));
+        System.out.println(" el area del triangdulo es  "+ (base*altura)/2);
         
     }
     
