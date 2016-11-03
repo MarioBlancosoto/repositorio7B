@@ -40,7 +40,7 @@ public class Boletin7c {
           break;
               
           default:
-              JOptionPane.showMessageDialog(null, "Error,seleccione otro número ");
+              System.out.println("Error,seleccione otro número ");
         
       }
         
