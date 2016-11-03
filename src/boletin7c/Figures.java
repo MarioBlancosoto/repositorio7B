@@ -34,7 +34,7 @@ public class Figures {
     
     
     public void cuadrado(float lado){
-        lado = Float.parseFloat(JOptionPane.showInputDialog(" inserte el valor del lado"));
+        lado = Float.parseFloat(JOptionPane.showInputDialog(" inserte el valor de lado"));
         System.out.println("El area del cuadrado es "+lado*lado);
     }
     
