@@ -39,7 +39,7 @@ public class Figures {
     }
     
     public void circulo (float radio){
-        radio = Float.parseFloat(JOptionPane.showInputDialog(" Inserte el radio "));
+        radio = Float.parseFloat(JOptionPane.showInputDialog(" Inserte el valor del radio "));
         System.out.println(" el area de la circunferencia es "+ Pi*Math.pow(radio,2));
     }
     
