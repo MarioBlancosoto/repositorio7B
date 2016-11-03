@@ -34,12 +34,12 @@ public class Figures {
     
     
     public void cuadrado(float lado){
-        lado = Float.parseFloat(JOptionPane.showInputDialog(" inserte el  valor del lado"));
+        lado = Float.parseFloat(JOptionPane.showInputDialog(" inserte el valor del lado"));
         System.out.println("El area del cuadrado es "+lado*lado);
     }
     
     public void circulo (float radio){
-        radio = Float.parseFloat(JOptionPane.showInputDialog(" Inserte el radio "));
+        radio = Float.parseFloat(JOptionPane.showInputDialog(" Inserte el valor del radio "));
         System.out.println(" el area de la circunferencia es "+ Pi*Math.pow(radio,2));
     }
     
