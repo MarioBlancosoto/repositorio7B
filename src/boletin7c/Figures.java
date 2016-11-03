@@ -46,7 +46,7 @@ public class Figures {
     
     public void triangulo(float base,float altura){
         base = Float.parseFloat(JOptionPane.showInputDialog(" inserte el valor de la base "));
-        altura = Float.parseFloat(JOptionPane.showInputDialog(" Inserte la altura " ));
+        altura = Float.parseFloat(JOptionPane.showInputDialog(" Inseerte la altura " ));
         System.out.println(" el area del triangdulo es  "+ (base*altura)/2);
         
     }
